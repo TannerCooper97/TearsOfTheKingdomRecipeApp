@@ -1,0 +1,45 @@
+.meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+    padding-top: 2rem;
+  }
+
+  .cardEdits{
+    padding-top: 2rem;
+  }
+
+  .cardEdits h1{
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    font-size: 2rem;
+  }
+
+  .meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .MealsLoading{
+    text-align: center;
+    color: white;
+  }
+  
+  .MealsError{
+    text-align: center;
+    color: red;
+  }
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

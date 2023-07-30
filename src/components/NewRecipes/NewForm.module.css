@@ -1,0 +1,66 @@
+h4{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  margin-top: 0rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 0.5rem 5rem;
+  border-radius: 5px;
+  margin-left: 4rem;
+}
+.actions button:hover{
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+.actions .button--alt {
+  color: black;
+}
+.actions .button {
+  background-color: #0d9263;
+  border-color: #0d9263;
+  color: white;
+}
+
+.actions .button:hover{
+  background-color: #085d3f;
+  border-color: #f8f8f8;
+  color: white;
+}
+
+.selections{
+  width: 100%;
+  padding: .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin-left: .25rem;
+}
+
+.selectionContainers{
+ width: 50%;
+}
+
+.selectionContainers p{
+  font-weight: 600;
+}
+
+.selectHeaders{
+  margin-right: 1rem;
+}
+
+.radioButtons{
+  display: flex;
+  padding-bottom: 1.2rem;
+}
+

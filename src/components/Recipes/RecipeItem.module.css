@@ -1,0 +1,43 @@
+.meal {
+  padding: 0rem 2rem 0rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.meal h3 {
+  padding-top: 1.25rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.description {
+  font-style: italic;
+  padding-bottom: 3rem;
+}
+
+.meal li{
+    padding: 0.25rem 0;
+    font-weight: 700;
+}
+
+.resourcesList{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+  padding-top: .25rem;
+}
+
+.price img {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  margin: 0;
+}
