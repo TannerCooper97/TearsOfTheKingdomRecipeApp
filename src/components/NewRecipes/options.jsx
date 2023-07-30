@@ -1,4 +1,5 @@
 const options = [
+    "Select an Item",
     "Acorn",
     "Aerocuda Wing",
     "Ancient Arowana",

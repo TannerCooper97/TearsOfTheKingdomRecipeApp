@@ -15,4 +15,12 @@
     font: inherit;
     padding-left: 0.5rem;
   }
-  
+
+alert{
+  display: flex;
+  justify-content: center;
+  margin-top: -23rem;
+  padding: 5rem;
+  background-color: rgb(200, 199, 199);
+  color: black;
+}

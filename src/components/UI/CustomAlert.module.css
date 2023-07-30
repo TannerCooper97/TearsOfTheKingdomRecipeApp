@@ -1,0 +1,42 @@
+.custom_alert_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .custom_alert {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+  }
+  
+  .custom_alert h3 {
+   margin: 0 0 .5rem 0;
+  }
+  
+  .custom_alert p {
+   margin: 0 0 .5rem 0;
+  }
+  
+  .custom_alert button {
+    background-color: #5a1a01;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0.5rem 0 0 0;
+    padding: 0.5rem 5rem;
+  }
+  
+  .custom_alert button:hover{
+    background-color: #0d9263;
+    border-color: #0d9263;
+    color: white;
+  }
