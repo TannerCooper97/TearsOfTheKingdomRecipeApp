@@ -55,8 +55,7 @@ const NewForm = (props) => {
     itemThreeRef.current.value = "";
     itemFourRef.current.value = "";
     itemFiveRef.current.value = "";
-    foodCheckRef.current.value = "";
-    elixerCheckRef.current.value = "";
+    foodelixerCheckRef.current.value = "";
   };
 
   const handleOptionChange = (ref, value) => {
