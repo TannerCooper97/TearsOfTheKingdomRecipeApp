@@ -1,8 +1,7 @@
-# React + Vite
+# Tears of the Kingdom Cook Book
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cook Book App displaying the usage of RESTFUL Post and Get Requests in a react application using a free firebase api.
 
-Currently, two official plugins are available:
+Showcasing available upon request. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://tears-of-the-kingdom-cook-book.netlify.app/

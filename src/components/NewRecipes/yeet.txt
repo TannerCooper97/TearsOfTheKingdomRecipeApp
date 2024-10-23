@@ -1,5 +1,5 @@
 
-Takes users input using useRef that are:
+--->Takes users input using useRef that are:
 name (string)
 description (string)
 price (integer)
@@ -10,7 +10,7 @@ itemFour (string)
 itemFive (string)
 foodElixerCheck (boolean)
 
-Uses useState to check the form validation by not allowing users:
+--->Uses useState to check the form validation by not allowing users:
 name to be less then 5 chars long
 description to be less then 10 characters long
 price to be only integers
@@ -18,7 +18,7 @@ name, description, price, foodElixerCheck to be filled out.
 itemOne, itemTwo, and itemThree to be selected.
 And not allow it to be submitted without validation.
 
-Have the input fields be:
+--->Have the input fields be:
 name (text)
 description (text)
 price (integer)
@@ -29,19 +29,20 @@ itemThree (drop down selection)
 itemFour (drop down selection) 
 itemFive (drop down selection) 
 
-and have the selectable values for itemOne through itemFive be:
+--->and have the selectable values for itemOne through itemFive be:
 "Golden Apple" , "Spicy Pepper" , "Fire Fruit" , "Ice Fruit" , "Shock Fruit" , "Splash Fruit", "Dazzle Fruit" , "Bomb Flower" , "Muddle Bud" ,
 "Palm Fruit" , "Hylian Tomato" , "Apple" , "Wildberry" , "Voild Fruit" , "Fleet-Lotus" , "Hydromelon" , "Mighty Bananas" , "Puffshroom" , "Big Hearty Truffle" , "Hearty Truffle" , "Endura Shroom" , "Rush Room" , "Brightcap" , "Stamella Shroom" , "Chillshroom" , "Sunshroom" , "Hylian Shroom" , "Zapshroom" , "Silent Shroom" , "Razorshroom" , "Ironshroom" , "Skyshroom" , "Big Hearty Radish" , "Hearty Radish" , "Endura Carrot" , "Hyrule Herb" , "Silent Princess" , "Fortified Pumpkin" , "Sun Pumpkin" , "Swift Carrot" , "Stambulb" , "Korok Frond" , "Cool Safflina" , "Electric Safflina" , "Swift Violet" , "Sundelion" , "Raw Gourmet Meat" , "Raw Whole Bird" , "Raw Prime Meat" , "Raw Bird Thigh" , "Raw Meat" , "Raw Bird Drumstick" , "Courser Bee Honey" , "Hylian Rice" , "Bird Egg" , "Tabantha Wheat" , "Hateno Cheese" , "Fresh Milk" , "Acorn" , "Chickaloo Tree Nut" , "Cane Sugar" , "Goron Spice" , "Goat Butter" , "Monster Extract" , "Oil Jar" , "Dark Clump" , "Rock salt" , "Star Fragment" , "Fairy" , "Armored Carp", "Bright-Eyed Crab", "Hearty Salmon", "Hyrule Bass", "Mighty Porgy", "Mighty Carp", "Mighty Salmon", "Palm Fish", "Razorclaw Crab", "Sizzlefin Trout", "Sneaky River Snail", "Stealthfin Trout", "Staminoka Bass", "Voltfin Trout", "Chillfin Trout", "Glowing Cave Fish" , "Ancient Arowana" , "Sanke Carp" , "Bladed Rhino Beetle", "Electric Darner", "Fireproof Lizard", "Hightail Lizard", "Horned Beetle", "Hot-Footed Frog" , "Restless Cricket", "Rugged Rhino Beetle", "Thunderwing Butterfly", "Winterwing Butterfly", "Energetic Rhino Beetle" , "Deep Firefly" , "Tireless Frog" , "Sticky Frog" , "Hearty Lizard" , "Sticky Lizard" , "Summerwing Butterfly" , "Smotherwing Butterfly" , "Cold Darner" , "Warm Darner" , "Bokoblin Guts" , "Moblin Guts" , "Horriblin Guts" , "Gibdo Guts" , "Boss Bokoblin Guts" , "Lynel Guts" , "Gleeok Guts" , "Frox Guts" , "Molduga Guts" , "Hinox Guts" , "Red Chuchu Jelly" , "White Chuchu Jelly" , "Yellow Chuchu Jelly" , "Chuchu Jelly" , "Octo Balloon" , "Keese Eyeball" , "Fire Keese Eyeball" , "Ice Keese Eyeball" , "Eletric Keese Eyeball" , "Aerocuda Wing" , "Gibdo Wing" , "Gleeok Wing" , "Molduga Fin" , "Bokoblin Horn" , "Blue Bokoblin Horn" , "Black Bokoblin Horn" , "Silver Bokoblin Horn" , "Boss Bokoblin Horn" , "Blue Boss Bokoblin Horn" , "Black Boss Bokoblin Horn" , "Silver Boss Bokoblin Horn" , "Lizalfos Horn" , "Blue Lizalfos Horn" , "Black Lizalfos Horn" , "Silver Lizalfos Horn" , "Fire-Breath Lizalfos Horn" , "Ice-Breath Lizalfos Horn" , "Electric Lizalfos Horn" , "Lynel Saber Horn" , "Blue-Maned Lynel Mace Horn" , "White-Maned Lynel Saber horn" , "Silver Lynel Saber Horn" , "Hinox Toenail" , "Gleeok Flame horn" , "Gleeok Frost Horn" , "Gleeok Thunder Horn" , "Like-Like Stone" , "Ice-Like Stone" , "Fire-Like Stone" , "Shock-Like Stone" , "Moblin Horn" , "Blue Moblin Horn" , "Black Moblin Horn" , "Silver Moblin Horn" , "Horriblin Horn" , "Blue Horriblin Horn" , "Black Horriblin Horn" , "Silver Horriblin Horn" , "Lynel Hoof" , "Lynel Mace Horn" "Blue-Maned Lynel Saber Horn" , "White-Maned Lynel Mace Horn" , "Silver-Lynel Mace Horn" , "Hinox Horn" , "Blue Hinox Horn" , "Black Hinox Horn" , "Stalnox Horn" , "Molduga Jaw" , "Frox Fang" , "Obsidian Frox Fang" , "Blue-White Frox Fang" , "Lizalfos Tail" , "Blue Lizalfos Tail" , "Black Lizalfos Tail" , "Silver Lizalfos Tail" , "Fire-Breath Lizalfos Tail" , "Ice-Breath Lizalfos Tail" , "Electric Lizalfos Tail" , "GibdoBone" , "Octorok Tentacle" , "Bokoblin Fang" , "Moblin Fang" , "Boss Bokolin Fang" , "Hinox Tooth" , "Horriblin Claw" , "Lizalfos Talon" , "Frox Fingernail"
 
-Then make a post request to a firebase database using an async await function.
+-->Then make a post request to a firebase database using an async await function.
 
-If Food is selected foodElixerCheck is set to True and the post request is sent to the food table within the firebase database.
+--->If Food is selected foodElixerCheck is set to True and the post request is sent to the food table within the firebase database.
 
-If Elixer is selected foodElixerCheck is set to False and the post request is sent to the elixer table within the firebase database.
+--->If Elixer is selected foodElixerCheck is set to False and the post request is sent to the elixer table within the firebase database.
 
-The post request needs all the input information along with an id corelated to that information. Except the foodElixerCheck input. 
+--->The post request needs all the input information along with an id corelated to that information. Except the foodElixerCheck input. 
 
 
+--->JSON File
 const options = [
     "Acorn",
     "Aerocuda Wing",
@@ -200,3 +201,4 @@ const options = [
     "Yellow Chuchu Jelly",
     "Zapshroom",
   ];
+
